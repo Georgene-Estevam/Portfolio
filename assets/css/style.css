@@ -1,0 +1,247 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+<!--Link Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+*/
+body {
+    background-image: linear-gradient(90deg, #52b4ff, /*#363A6D, #212343*/ #47e08c);
+    color: #101010;
+}
+
+/*Edição Página index.html
+/*====================Edição do menu Principal - Página index.html===============*/
+header {
+    background-color: #101010;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo img{
+    border-radius: 50%;
+    width: 60px;
+    height: 61px;
+}
+
+#btn-mobile {
+    display: none;
+    border: none;
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+    float: right;
+    margin-top: -45px;
+}
+
+ul#menu li a {
+    color: #FFF;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0px 15px;
+    
+}
+
+.conteudo-inicial {
+    text-align: center;
+    margin: 50px 20px;
+    display: inline-block;
+}
+
+.conteudo-inicial p{
+    font-family: 'Ubuntu', sans-serif;
+    text-indent: 20px;
+    text-align: justify;
+    width: 50%;
+    font-size: 22px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+div.minha-imagem {
+    width: 40%;
+    cursor: pointer;
+    display: inline-block;
+}
+
+footer {
+    background-color: #FFF;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0px;
+    border-top: 2px solid #ff0052;
+    margin-top: 70px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a img {
+    margin: 0px 10px;
+}
+
+/*============================Edição Página perfil pessoal========================*/
+.conteudo-perfil {
+    width: 100%;
+    padding: 10px 15px;
+}
+.conteudo-perfil h2.sub-titulo {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+    padding-left: 10px;
+    margin-top: 40px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.conteudo-perfil p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 19px;
+    text-align: justify;
+    padding-left: 30px;
+    text-indent: 25px;
+    letter-spacing: 3px;
+    line-height: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.conteudo-perfil ul li {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    padding: 3px 0px;
+    margin-left: 60px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+svg.bi-arrow-up-square-fill {
+    float: right;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+svg.bi-arrow-up-square-fill:hover {
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 2px;
+    border: dotted 2px #000000c9;
+}
+
+/*=======================Edição da página habilidades======================*/
+div.campo-habilidades {
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 60px;
+}
+
+div.tecnologia {
+    display: inline-block;
+    text-align: center;
+    margin: 20px 30px;
+}
+
+.tecnologia p {
+    margin-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+/*==============================Edição da página projetos========================*/
+div.campo-projetos {
+    text-align: center;
+    margin: 70px 0px;
+    width: 100%;
+    height: auto;
+}
+div.imagens {
+    border: 1px solid #000000c9;
+    padding: 10px 10px 20px 10px;
+    margin: 10px;
+    height: auto;
+    width: 280px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+div.imagens img {
+    padding: 5px 0px;
+}
+
+div.imagens p {
+    text-align: justify;
+    width: 95%;
+    height: auto;
+    padding: 0px 3px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+div.botao {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.imagens a button{
+    width: 120px;
+    height: 30px;
+    border-radius: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 2px 2px 1px #101010;
+    font-weight: bolder;
+    background-color: #000000c9;
+    color: #ffffff;
+    border: none;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+div.imagens button:hover {
+    background-color: #ffffff;
+    color: #101010;
+    transition: 0.5s;
+    border: 1px solid #ff0052;
+    box-shadow: 10px 10px 8px #101010;
+}
+
+/*Barra de rolagem do navegador*/
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #FFF;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ff0052;
+}
