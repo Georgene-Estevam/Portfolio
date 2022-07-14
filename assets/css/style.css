@@ -85,6 +85,24 @@ div.minha-imagem {
     display: inline-block;
 }
 
+div.cv {
+    text-align: center;
+    margin-top: 20px;
+   
+}
+
+.cv a {
+    text-decoration: none;
+    color: #101010;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    border: 1px solid #ff0052;
+    width: 50%;
+    padding: 8px;
+    background-color: #FFF;
+}
+
 footer {
     background-color: #FFF;
     width: 100%;
@@ -110,7 +128,6 @@ footer a img {
 .conteudo-perfil h2.sub-titulo {
     font-family: 'Ubuntu', sans-serif;
     font-size: 32px;
-    padding-left: 10px;
     margin-top: 40px;
     font-weight: bolder;
     letter-spacing: 2px;
@@ -120,7 +137,7 @@ footer a img {
     font-family: 'Ubuntu', sans-serif;
     font-size: 19px;
     text-align: justify;
-    padding-left: 30px;
+    padding-left: 10px;
     text-indent: 25px;
     letter-spacing: 3px;
     line-height: 30px;
@@ -177,27 +194,32 @@ div.tecnologia {
 /*==============================Edição da página projetos========================*/
 div.campo-projetos {
     text-align: center;
-    margin: 70px 0px;
+    margin: 50px 0px;
     width: 100%;
     height: auto;
 }
 div.imagens {
-    border: 1px solid #000000c9;
-    padding: 10px 10px 20px 10px;
-    margin: 10px;
-    height: auto;
-    width: 280px;
     display: inline-block;
-    border-radius: 3px;
+    margin: 15px;
+    top: 0;
 }
 
 div.imagens img {
-    padding: 5px 0px;
+    /*padding: 5px 0px;*/
+    border: 1px solid #000000c9;
+}
+
+.descricao {
+    border: 1px solid #000000c9;
+    max-width: 250px;
+    height: auto;
+    margin-top: -4px;
+    padding: 10px;
 }
 
 div.imagens p {
     text-align: justify;
-    width: 95%;
+    max-width: 250px;
     height: auto;
     padding: 0px 3px;
     font-family: 'Ubuntu', sans-serif;
