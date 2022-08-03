@@ -144,10 +144,14 @@
 
     /*======================Página habilidades=====================*/
     .campo-habilidades {
+        display: inline-block;
+        width: 100%;
+        
     }
 
     .tecnologia {
-        width: 100%;
+        width: 30%;
+        display: inline-block;
     }
 
     .tecnologia img {
@@ -155,7 +159,7 @@
     }
 }
 
-@media (max-width: 365px) {
+@media (max-width: 390px) {
     /* Menú principal*/
     header {
         max-width: 600px;
@@ -299,6 +303,12 @@
     }
 
     /*======================Página habilidades=====================*/
+    .campo-habilidades{
+        width: 100%;
+        display: inline-block;
+        overflow-x: hidden;
+    }
+
     .tecnologia {
         width: 30%;
         margin: 0px 10px;
@@ -311,6 +321,6 @@
     }
 
     .tecnologia p {
-        
+        text-align: center;
     }
 }
